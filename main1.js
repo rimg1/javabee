@@ -8,7 +8,7 @@ function login() {
   const validPassword = "1234";
 
   if (username === validUsername && password === validPassword) {
-    window.location.href = "welcome.html";
+    window.location.href = "javabeewelcome.html";
   } else {
     message.style.color = "red";
     message.textContent = "아이디 또는 비밀번호가 잘못 되었습니다.";
