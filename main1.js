@@ -4,8 +4,8 @@ function login() {
   const message = document.getElementById("message");
 
   // 가상의 유효한 사용자 정보 (예: 아이디 "naveruser", 비밀번호 "1234")
-  const validUsername = "abc, qer";
-  const validPassword = "1234, 456";
+  const validUsername = "abc";
+  const validPassword = "1234";
 
   if (username === validUsername && password === validPassword) {
     message.style.color = "green";
