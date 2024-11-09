@@ -8,8 +8,6 @@ function login() {
   const validPassword = "1234";
 
   if (username === validUsername && password === validPassword) {
-    message.style.color = "green";
-    message.textContent = "로그인 성공!";
     window.location.href = "welcome.html";
   } else {
     message.style.color = "red";
