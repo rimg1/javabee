@@ -3,9 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
+  background-color: #cfd4f3;
 }
 
 h1 {
@@ -16,9 +14,9 @@ h1 {
 /* 시간표 스타일 */
 table {
   width: 80%;
-  max-width: 600px;
+  max-width: 750px;
   border-collapse: collapse;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 th,
@@ -29,10 +27,21 @@ td {
 }
 
 th {
-  background-color: #4caf50;
+  background-color: #0b101ae1;
   color: white;
 }
 
-tr:nth-child(even) {
+tr {
+  background-color: #f2f2f2;
+}
+
+textarea {
+  width: 90%;
+  height: 60px;
+  resize: none;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  padding: 3px;
   background-color: #f2f2f2;
 }
