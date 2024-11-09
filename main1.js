@@ -10,6 +10,7 @@ function login() {
   if (username === validUsername && password === validPassword) {
     message.style.color = "green";
     message.textContent = "로그인 성공!";
+    window.location.href = "welcome.html";
   } else {
     message.style.color = "red";
     message.textContent = "아이디 또는 비밀번호가 잘못 되었습니다.";
